@@ -13,6 +13,7 @@ plt.title(title)
 
 tick_val = [1000,2000,3000,4000]
 tick_lab = ['1B','2B','3B','4B']
+
 plt.yticks(tick_val,tick_lab)
 plt.plot(year,pop)
 plt.show()
